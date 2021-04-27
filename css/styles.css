@@ -34,7 +34,7 @@
 }
 
 .navbar-dark{
-    background-color: #512DA8;   
+    background: #512EA8;   
 }
 
 .tab-content{
@@ -42,4 +42,31 @@
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+.carousel {
+    background-color:#512DA8;
+    color: #0f0f0f;
+}
+
+.carousel-item {
+  height: 300px;
+  color: #0f0f0f;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    color: #0f0f0f;
+}
+
+.navbar-collapse{
+    padding: 5px 0px 0px 20px;
+    word-spacing: 10px;
+}
+
+.navbar-nav{
+    word-spacing: 1000px;
 }
